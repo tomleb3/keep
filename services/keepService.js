@@ -1,5 +1,5 @@
-import { storageService } from "../../../services/storageService.js";
-import { utilService } from "../../../services/utilService.js";
+import { storageService } from "./storageService.js";
+import { utilService } from "./utilService.js";
 
 export const keepService = {
    query,

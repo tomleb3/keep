@@ -36,7 +36,3 @@ textarea {
    caret-color: red;
    resize: none;
 }
-
-input#img-input[type="file"] {
-   display: none;
-}
