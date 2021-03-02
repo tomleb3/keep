@@ -1,0 +1,191 @@
+.keep-preview {
+   background-color: rgb(105, 194, 54);
+   padding: 15px;
+   min-height: 420px;
+   border-radius: 5px;
+   margin-top: 50px;
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+   transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.keep-preview:hover {
+   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.keep-preview * {
+   margin: 5px;
+}
+
+.keep-preview img {
+   max-width: 260px;
+   height: 250px;
+   object-fit: cover;
+}
+
+.keep-preview iframe {
+   max-width: 260px;
+   height: 250px;
+}
+
+.keep-preview textarea {
+   max-width: 255px;
+   height: 220px;
+}
+
+.keep-preview div {
+   flex-grow: 1;
+   justify-content: center;
+}
+
+.keep-preview img {
+   margin: 0;
+}
+
+.keep-preview div * {
+   width: 100%;
+}
+
+.keep-preview .btn-actions, .keep-preview .btn-actions+p {
+   visibility: hidden;
+}
+
+.keep-preview:hover .btn-actions, .keep-preview:hover .btn-actions+p {
+   visibility: visible;
+}
+
+.keep-preview .btn-actions button, .keep-preview .btn-actions label {
+   height: 25px;
+   width: 25px;
+}
+
+.keep-preview .btn-actions button.not-pinned {
+   background: url(../../imgs/push-pin_off.png) no-repeat;
+   background-size: cover;
+}
+
+.keep-preview .btn-actions button.pinned {
+   background: url(../../imgs/push-pin_on.png) no-repeat;
+   background-size: cover;
+}
+
+.keep-preview .btn-actions label {
+   background: url(../../imgs/pallete.png) no-repeat;
+   background-size: contain;
+   cursor: pointer;
+}
+
+.keep-preview .btn-actions input[type=color] {
+   visibility: hidden;
+   border: none;
+}
+
+.keep-preview .btn-actions button:last-child {
+   background: url(../../imgs/delete.png) no-repeat;
+   background-size: cover;
+}
+
+.keep-preview .list-container {
+   margin: 4px;
+}
+
+.keep-preview aside button {
+   margin-inline-end: 10px;
+}
+
+.keep-preview .btn-add-item {
+   height: 15px;
+   width: 15px;
+   padding: 0;
+   font-weight: 600;
+   font-size: 1.25em;
+   background-color: inherit;
+}
+
+.keep-preview button[type=submit] {
+   padding: 0.7em 1.7em;
+   color: white;
+   background-color: #3369ff;
+   box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17), inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15), inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
+}
+
+.keep-preview input[name=title] {
+   font-size: 1.2rem;
+   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.keep-preview input[name=list-item] {
+   font-size: 1rem;
+   font-weight: bolder;
+}
+
+.keep-preview input[name=add-list-item] {
+   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.keep-preview input[placeholder="URL?"] {
+   padding-bottom: 180px;
+}
+
+.keep-preview input[type=checkbox] {
+   margin-top: 15px;
+}
+
+.keep-preview input[type=checkbox]:checked+input {
+   text-decoration: line-through;
+   opacity: 0.7;
+}
+
+.keep-preview .top-pin {
+   background: url(../../imgs/pinned.png) no-repeat;
+   background-size: contain;
+   height: 15px;
+   width: 15px;
+}
+
+.keep-preview .add-container button {
+   height: 50px;
+   width: 50px;
+   transition: 0.2s;
+}
+
+.keep-preview .add-container button:hover {
+   transform: scale(1.05);
+}
+
+.keep-preview .add-container button:active {
+   transform: scale(0.97);
+}
+
+.keep-preview .add-container section button:first-child {
+   background: url(../../imgs/text.png) no-repeat;
+   background-size: cover;
+}
+
+.keep-preview .add-container section button:last-child {
+   background: url(../../imgs/image.png) no-repeat;
+   background-size: cover;
+}
+
+.keep-preview .add-container aside button:first-child {
+   background: url(../../imgs/list.png) no-repeat;
+   background-size: cover;
+}
+
+.keep-preview .add-container aside button:last-child {
+   background: url(../../imgs/video.png) no-repeat;
+   background-size: cover;
+}
+
+.keep-preview textarea::-webkit-scrollbar {
+   width: 4px;
+}
+
+.keep-preview textarea::-webkit-scrollbar {
+   box-shadow: inset 0 0 4px rgb(7, 0, 85);
+   border-radius: 3px;
+}
+
+.keep-preview textarea::-webkit-scrollbar {
+   border-radius: 3px;
+   box-shadow: inset 0 0 4px rgb(7, 0, 85);
+}

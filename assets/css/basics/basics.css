@@ -1,0 +1,42 @@
+* {
+   margin: 0;
+   box-sizing: border-box;
+   font-family: SourceSans-regular;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {}
+
+button {
+   border: none;
+   border-radius: 0.2em;
+   font-size: 1.05rem;
+   padding: 4px 7px;
+   outline: none;
+   cursor: pointer;
+}
+
+a {
+   color: inherit;
+   text-decoration: none;
+}
+
+input {
+   caret-color: red;
+   border: 2px solid #bbbbbb;
+   border-radius: 2px;
+   padding: 0.3rem;
+   padding-right: 1rem;
+}
+
+textarea {
+   caret-color: red;
+   resize: none;
+}
+
+input#img-input[type="file"] {
+   display: none;
+}
