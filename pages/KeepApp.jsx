@@ -1,6 +1,6 @@
 import { KeepList } from "../cmps/KeepList.jsx"
-import { keepService } from "../services/keepService.js"
 import { KeepNav } from "../cmps/KeepNav.jsx"
+import { keepService } from "../services/keepService.js"
 
 export class KeepApp extends React.Component {
 
