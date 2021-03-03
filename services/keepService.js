@@ -76,7 +76,7 @@ function _getDemoNotes() {
       isPinned: false,
       createdAt: Date.now(),
       info: {
-         title: "asd",
+         title: "",
          txt: "Fullstack Me Baby!"
       },
       style: {
